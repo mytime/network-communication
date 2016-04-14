@@ -1,4 +1,4 @@
-package com.yanwanfu.httpdemo;
+package com.yanwanfu.httpget;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,6 +7,8 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+
+import com.yanwanfu.httpdemo.R;
 
 import android.app.Activity;
 import android.os.AsyncTask;
