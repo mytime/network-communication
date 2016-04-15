@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JsonFile.iml" filepath="$PROJECT_DIR$/JsonFile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JsonRead/JsonRead.iml" filepath="$PROJECT_DIR$/JsonRead/JsonRead.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JsonRead.iml" filepath="$PROJECT_DIR$/JsonRead.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JsonRead/JsonRead-JsonRead.iml" filepath="$PROJECT_DIR$/JsonRead/JsonRead-JsonRead.iml" />
     </modules>
   </component>
 </project>

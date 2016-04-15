@@ -22,17 +22,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         try {
+            //读取流
             InputStreamReader isr = new InputStreamReader(getAssets().open("test.json"),"UTF-8");
             BufferedReader br = new BufferedReader(isr);
             String line;
             StringBuilder builder = new StringBuilder();
             while ((line=br.readLine())!=null){
+                System.out.println(line); //输出
                 builder.append(line);
             }
-            //Json对象（根）
+            //Json对象（解析根节点）
             JSONObject root = new JSONObject(builder.toString());
             System.out.println("cat="+root.getString("cat"));
-            //Json数组
+            //Json数组（解析数组节点）
             JSONArray array = root.getJSONArray("languages");
             for (int i = 0; i < array.length() ; i++) {
                 JSONObject lan = array.getJSONObject(i);
